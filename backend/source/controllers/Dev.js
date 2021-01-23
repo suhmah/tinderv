@@ -1,6 +1,6 @@
 const axios = require("axios");
 const Dev = require("../models/Dev.js");
-
+//teste
 module.exports = {
   async index(req, res) {
     const { user } = req.headers;
